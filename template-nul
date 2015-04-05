@@ -1,0 +1,5 @@
+let g:templates_user_variables = [['NUL', 'GetNul']]
+function GetNul()
+    return expand('')
+endfunction
+
