@@ -1,0 +1,18 @@
+two =_Task Wiki Open -- A script to facilitate working with task wiki files._
+
+Usage: two [-a|-c|-h|-i|-l] [[attribute:]value] [filter]
+
+  no args -- opens taskwiki root index.wiki
+  no "attribute:" -- attribute=project
+
+  -a [filter] -- info for project.any:
+
+  -c [[attribute:]value] [filter] -- info using current context (default is to ignore)
+
+  -h -- show two-help.txt (this file)
+
+  -i [[attribute:]value] [filter] -- information about <value>
+
+  -l -- to list wiki files
+
+
